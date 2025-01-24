@@ -1,0 +1,62 @@
+# Node.js dependencies
+/node_modules/
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+/backend/.env
+/frontend/.env
+
+# Build/Dist Files
+/dist/
+/build/
+/backend/dist/
+/frontend/build/
+
+# Temporary Files
+/tmp/
+/temp/
+
+# IDE/Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage Reports
+/coverage/
+/backend/coverage/
+/frontend/coverage/
+
+# Testing
+/test-results/
+/jest-cache/
+/jest-config/
+
+# React Specific
+/frontend/.next/
+/frontend/.cache/
+/frontend/public/static/
+/frontend/public/robots.txt
+
+# Parcel-bundler cache (if used)
+/.cache/
+.parcel-cache/
+
+# MacOS metadata
+._*
+
+# Git-specific
+.git/
