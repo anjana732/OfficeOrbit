@@ -22,6 +22,9 @@ const employeeSchema = new mongoose.Schema({
         type: Boolean,
         default: false,
         required: true
+    },
+    refreshToken:{
+        type: String
     }
 },{timestamps: true});
 
